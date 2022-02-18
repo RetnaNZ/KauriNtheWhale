@@ -6,10 +6,17 @@ public class Movement : MonoBehaviour
 {
     Rigidbody2D PlayerRB;
     public float mSpeed = 1;
+    public float mouseMSpeed = 10;
     public float jumpHeight = 2;
-    Vector3 right = new Vector3( -1, 1, 1);
-    Vector3 left = new Vector3( 1, 1, 1);
+    Vector3 right = new Vector3(-1, 1, 1);
+    Vector3 left = new Vector3(1, 1, 1);
 
+    public float startTime;
+    public bool mouseClicked = false;
+
+    public float journeyDist;
+    public Vector3 travelpoint;
+    public Vector3 startPosition;
     Camera cam;
 
 
@@ -26,9 +33,10 @@ public class Movement : MonoBehaviour
         float m = Input.GetAxis("Horizontal");
         if (m != 0)
         {
-            transform.Translate(new Vector3(m,0,0) * mSpeed * Time.deltaTime);
+            mouseClicked = false;
+            transform.Translate(new Vector3(m, 0, 0) * mSpeed * Time.deltaTime);
         }
-        if(m < 0)
+        if (m < 0)
         {
             transform.localScale = right;
         }
@@ -42,27 +50,45 @@ public class Movement : MonoBehaviour
             PlayerRB.AddForce(Vector2.up * jumpHeight * 100);
         }
 
+        CastRay();
     }
 
-    private void FixedUpdate()
-    {
-
-
-        if (Input.GetMouseButton(0))
-        {
-            CastRay();
-        }
-
-    }
 
     void CastRay()
     {
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
 
-        if (hit)
+        if (Input.GetMouseButton(0))
         {
-            Debug.Log(hit.transform.name);
+
+            if (hit)
+            {
+
+                Debug.Log(hit.transform.name);
+
+                startTime = Time.time;
+                startPosition = new Vector3(transform.position.x, transform.position.y, 0);
+                travelpoint = new Vector3(hit.point.x, transform.position.y, 0);
+                journeyDist = Vector3.Distance(startPosition, travelpoint);
+                mouseClicked = true;
+
+            }
+        }
+
+        if (mouseClicked)
+        {
+
+            float distCovered = (Time.time - startTime) * mouseMSpeed;
+            float fracJourney = distCovered / journeyDist;
+            startPosition.x = Mathf.Lerp(startPosition.x, travelpoint.x, fracJourney);
+
+            transform.position = startPosition;
+
+            if (Vector3.Distance(transform.position, travelpoint) < .00001f)
+            {
+                mouseClicked = false;
+            }
         }
     }
 }
