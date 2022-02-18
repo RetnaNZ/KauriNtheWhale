@@ -5,8 +5,8 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     Rigidbody2D PlayerRB;
-    public float mSpeed = 1;
-    public float mouseMSpeed = 10;
+    public float mSpeed = 10;
+    public float mouseMSpeed = 6;
     public float jumpHeight = 2;
     Vector3 right = new Vector3(-1, 1, 1);
     Vector3 left = new Vector3(1, 1, 1);
@@ -50,7 +50,30 @@ public class Movement : MonoBehaviour
             PlayerRB.AddForce(Vector2.up * jumpHeight * 100);
         }
 
-        CastRay();
+
+        if (Input.GetMouseButton(0))
+        {
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
+
+            if (hit)
+            {
+                travelpoint = new Vector3(hit.point.x, transform.position.y, 0);
+                journeyDist = Vector3.Distance(startPosition, travelpoint);
+                transform.position = Vector3.MoveTowards(transform.position, travelpoint, mouseMSpeed * Time.deltaTime);
+
+                if(hit.point.x < transform.position.x)
+                {
+                    transform.localScale = right;
+                }
+                else
+                {
+                    transform.localScale = left;
+                }
+            }
+        }
+
+        //CastRay();
     }
 
 
@@ -74,6 +97,8 @@ public class Movement : MonoBehaviour
                 mouseClicked = true;
 
             }
+
+
         }
 
         if (mouseClicked)
