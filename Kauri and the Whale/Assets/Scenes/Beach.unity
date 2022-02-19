@@ -238,6 +238,8 @@ GameObject:
   m_Component:
   - component: {fileID: 261393973}
   - component: {fileID: 261393972}
+  - component: {fileID: 261393975}
+  - component: {fileID: 261393974}
   m_Layer: 0
   m_Name: BeachMiddle
   m_TagString: Untagged
@@ -305,13 +307,81 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261393971}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.22, y: -0.2, z: 0}
+  m_LocalPosition: {x: 8.31, y: -0.2, z: 0}
   m_LocalScale: {x: 0.40329474, y: 0.30152878, z: 0.30152878}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &261393974
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261393971}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 46.079998, y: 34.559998}
+    newSize: {x: 46.079998, y: 34.559998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 46.079998, y: 34.559998}
+  m_EdgeRadius: 0
+--- !u!60 &261393975
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261393971}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 46.079998, y: 34.559998}
+    newSize: {x: 46.079998, y: 34.559998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 23.068724, y: -15.598721}
+      - {x: 23.16908, y: -13.821208}
+      - {x: 22.62815, y: -9.920143}
+      - {x: 20.990856, y: -8.550619}
+      - {x: 18.737993, y: -8.796291}
+      - {x: 15.844622, y: -8.689905}
+      - {x: 10.751368, y: -9.099882}
+      - {x: 6.887293, y: -8.820839}
+      - {x: -0.45244408, y: -9.672628}
+      - {x: -2.948433, y: -9.451723}
+      - {x: -8.484452, y: -10.193402}
+      - {x: -13.487941, y: -11.211427}
+      - {x: -18.800543, y: -13.170121}
+      - {x: -23.093292, y: -16.933762}
+      - {x: -23.039999, y: -17.279999}
+      - {x: 23.039999, y: -17.279999}
+      - {x: 23.070663, y: -16.229704}
 --- !u!1 &1385378662
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +392,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1385378664}
   - component: {fileID: 1385378663}
+  - component: {fileID: 1385378665}
+  - component: {fileID: 1385378666}
   m_Layer: 0
   m_Name: CornerOfBeach
   m_TagString: Untagged
@@ -396,6 +468,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1385378665
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385378662}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 46.079998, y: 34.559998}
+    newSize: {x: 46.079998, y: 34.559998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.7479355, y: -10.000257}
+      - {x: 1.0744926, y: -8.760822}
+      - {x: 1.351152, y: -5.4747214}
+      - {x: -1.5111079, y: -4.4687214}
+      - {x: -1.7318635, y: 17.23873}
+      - {x: -23.039999, y: 17.279999}
+      - {x: -23.039999, y: -17.279999}
+      - {x: 23.039999, y: -17.279999}
+      - {x: 6.723652, y: -14.464731}
+--- !u!61 &1385378666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385378662}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 46.079998, y: 34.559998}
+    newSize: {x: 46.079998, y: 34.559998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 46.079998, y: 34.559998}
+  m_EdgeRadius: 0
 --- !u!1001 &1447766506
 PrefabInstance:
   m_ObjectHideFlags: 0
