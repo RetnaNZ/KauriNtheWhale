@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
+
+    public GameObject PakaiRSR;
     private float length, startpos;
-    public GameObject cam;
+    Camera cam;
     public float parallexEffect;
     void Start()
     {
+        cam = Camera.main;
         startpos = transform.position.x;
         length = GetComponent<SpriteRenderer>().bounds.size.x;
     }

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8df6f2cb378c72548bf236356c68d963
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Magnific Chaos Personal Use
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1bf56ca3be8701b4ebb5cb98f65feea4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

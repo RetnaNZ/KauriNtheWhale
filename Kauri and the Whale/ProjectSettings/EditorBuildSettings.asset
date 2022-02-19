@@ -20,7 +20,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WaipoaForest.unity
     guid: 5d0e9c05d53212f4580a5c817d0e6b43
-  - enabled: 1
-    path: Assets/Scenes/Waterfront.unity
-    guid: 347865f5ca92bc54a96da9aabad6d6ff
   m_configObjects: {}
