@@ -429,6 +429,7 @@ GameObject:
   - component: {fileID: 1569570452}
   - component: {fileID: 1569570451}
   - component: {fileID: 1569570453}
+  - component: {fileID: 1569570454}
   m_Layer: 0
   m_Name: new-zealand-waipoua-forest
   m_TagString: Untagged
@@ -531,10 +532,38 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 3.822607, y: -5.990848}
-      - {x: 0.699713, y: -5.4435916}
-      - {x: -3.0577307, y: -5.894088}
-      - {x: -9.493302, y: -5.6293073}
+    - - {x: 7.2114015, y: -5.790433}
+      - {x: 3.855533, y: -6.1554837}
+      - {x: 0.68873775, y: -6.2667704}
+      - {x: -4.374819, y: -6.2453113}
+      - {x: -7.2757034, y: -5.902761}
+      - {x: -9.601393, y: -5.461735}
       - {x: -9.599999, y: -6.375}
       - {x: 9.599999, y: -6.375}
       - {x: 9.57333, y: -5.5450583}
+--- !u!61 &1569570454
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569570450}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 12.75}
+    newSize: {x: 19.2, y: 12.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 12.75}
+  m_EdgeRadius: 0
