@@ -73,47 +73,8 @@ public class Movement : MonoBehaviour
             }
         }
 
-        //CastRay();
     }
 
 
-    void CastRay()
-    {
-        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
 
-        if (Input.GetMouseButton(0))
-        {
-
-            if (hit)
-            {
-
-                Debug.Log(hit.transform.name);
-
-                startTime = Time.time;
-                startPosition = new Vector3(transform.position.x, transform.position.y, 0);
-                travelpoint = new Vector3(hit.point.x, transform.position.y, 0);
-                journeyDist = Vector3.Distance(startPosition, travelpoint);
-                mouseClicked = true;
-
-            }
-
-
-        }
-
-        if (mouseClicked)
-        {
-
-            float distCovered = (Time.time - startTime) * mouseMSpeed;
-            float fracJourney = distCovered / journeyDist;
-            startPosition.x = Mathf.Lerp(startPosition.x, travelpoint.x, fracJourney);
-
-            transform.position = startPosition;
-
-            if (Vector3.Distance(transform.position, travelpoint) < .00001f)
-            {
-                mouseClicked = false;
-            }
-        }
-    }
 }
