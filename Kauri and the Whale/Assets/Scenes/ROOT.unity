@@ -312,7 +312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.3847206
+      value: -3.3846757
       objectReference: {fileID: 0}
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 1110809750}
   - component: {fileID: 1110809752}
   m_Layer: 0
-  m_Name: Paikai
+  m_Name: Waterfront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.777512, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
