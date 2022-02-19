@@ -225,7 +225,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.385001
+      value: -3.3848588
       objectReference: {fileID: 0}
     - target: {fileID: 8346003666907103356, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_RootOrder
@@ -360,7 +360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1289081031
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7758621, y: 1}
+    m_SensorSize: {x: 1.7766991, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 1436614921}
   - component: {fileID: 1436614920}
   m_Layer: 0
-  m_Name: Waipoa
+  m_Name: Wharf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2056885959}
-  loadDistance: 30
+  loadDistance: 35.19
   sceneIndexToLoad: 3
   visualDebug: 1
 --- !u!4 &1436614921
@@ -608,7 +608,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436614919}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 67.8, y: -3.78, z: 0.2772662}
+  m_LocalPosition: {x: 29.82, y: -3.78, z: 0.2772662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -640,7 +640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915365582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.4, y: -3.78, z: 0.2772662}
+  m_LocalPosition: {x: 175, y: -3.78, z: 0.2772662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2056885959}
   loadDistance: 30
-  sceneIndexToLoad: 2
+  sceneIndexToLoad: 4
   visualDebug: 1
 --- !u!4 &2056885959 stripped
 Transform:

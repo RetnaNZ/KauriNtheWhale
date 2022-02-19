@@ -11,6 +11,11 @@ public class DisableCoroutine : MonoBehaviour
         StartCoroutine(disableMyself());
     }
 
+    public void disableCoroutine()
+    {
+        StartCoroutine(disableMyself());
+    }
+
     IEnumerator disableMyself()
     {
         yield return new WaitForSeconds(disableAfterTimer);
