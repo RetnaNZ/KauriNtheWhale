@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 70494009}
   - component: {fileID: 70494010}
   - component: {fileID: 70494011}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Boat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,12 +224,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70494005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.14, y: 5.78, z: -0.2838074}
+  m_LocalPosition: {x: 15.12, y: 5.65, z: 0}
   m_LocalScale: {x: 1.0689911, y: 1.0689911, z: 1.0689911}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 324557539}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &70494009
 BoxCollider2D:
@@ -591,6 +591,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7262831432661440533, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7262831432661440534, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
       propertyPath: m_Name
       value: FirstWhaleTrigger
@@ -758,7 +762,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &261393974
 BoxCollider2D:
@@ -844,8 +848,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &324557539
-Transform:
+--- !u!224 &324557539
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -857,14 +861,19 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 881689396}
-  - {fileID: 70494008}
   - {fileID: 1993731890}
   - {fileID: 1549595590}
   - {fileID: 1977340015}
   - {fileID: 1447766507}
+  - {fileID: 70494008}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &444117416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,7 +1136,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &581429311
 GameObject:
@@ -1781,6 +1790,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9716981
       objectReference: {fileID: 0}
+    - target: {fileID: 7262831432661440533, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7262831432661440534, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
       propertyPath: m_Name
       value: BoatGame_Trigger
@@ -1991,7 +2004,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 28.818}
 --- !u!1 &1033839262 stripped
 GameObject:
@@ -3090,7 +3103,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1673597864
 AudioSource:
