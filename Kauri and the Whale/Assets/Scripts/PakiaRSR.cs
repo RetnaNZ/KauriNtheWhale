@@ -22,43 +22,29 @@ public class PakiaRSR : MonoBehaviour
 
     }
 
-    public void StartBoatGame()
+
+    public void StartTalking()
     {
-        rsm.Character.GetComponent<Movement>().enabled = false;
-        //StartCoroutine(gameIntro());
+        StartCoroutine(startTalkingCoroutine());
     }
+
 
     public void FishingTalking()
     {
-        //StartCoroutine(fishishTalking());
+        StartCoroutine(finishTalkingCoroutine());
     }
 
-    public void FinishBoatGame()
+
+    IEnumerator finishTalkingCoroutine()
     {
-        rsm.Character.GetComponent<Movement>().enabled = true;
-        rsm.Character.GetComponent<GameRayCast>().enabled = false;
-        rsm.BoatGameCompleted = true;
+        Character.GetComponent<Movement>().enabled = false;
+        yield return new WaitForSeconds(3f);
     }
 
-    //IEnumerator gameIntro()
-    //{
-    //    whaleOutOfWater = Whale.transform.position + new Vector3(0, 4, 0);
-    //    Whale.transform.GetChild(0).transform.gameObject.SetActive(true);
-    //    moveWhale = true;
-    //    yield return new WaitForSeconds(3f);
-    //    moveWhale = false;
-    //}
-
-    //IEnumerator fishishTalking()
-    //{
-    //    whaleOutOfWater = Whale.transform.position + new Vector3(0, -4, 0);
-    //    Whale.transform.GetChild(0).transform.gameObject.SetActive(false);
-
-    //    moveWhale = true;
-    //    yield return new WaitForSeconds(3f);
-    //    moveWhale = false;
-
-    //    rsm.Character.GetComponent<GameRayCast>().enabled = true;
-    //}
+    IEnumerator startTalkingCoroutine()
+    {
+        Character.GetComponent<Movement>().enabled= false;
+        yield return new WaitForSeconds(3f);
+    }
 
 }

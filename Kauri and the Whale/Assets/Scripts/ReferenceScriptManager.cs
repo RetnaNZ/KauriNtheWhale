@@ -25,4 +25,28 @@ public class ReferenceScriptManager : MonoBehaviour
     }
 
 
+    public void StartTalking()
+    {
+        StartCoroutine(startTalkingCoroutine());
+    }
+
+
+    public void FishingTalking()
+    {
+        StartCoroutine(finishTalkingCoroutine());
+    }
+
+
+    IEnumerator finishTalkingCoroutine()
+    {
+        Character.GetComponent<Movement>().enabled = false;
+        yield return new WaitForSeconds(3f);
+    }
+
+    IEnumerator startTalkingCoroutine()
+    {
+        Character.GetComponent<Movement>().enabled = false;
+        yield return new WaitForSeconds(3f);
+    }
+
 }

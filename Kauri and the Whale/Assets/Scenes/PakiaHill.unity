@@ -766,12 +766,32 @@ PrefabInstance:
       value: EventTrigger (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7262831432661440535, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262831432661440535, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262831432661440535, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
       propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1892632295}
     - target: {fileID: 7262831432661440535, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262831432661440535, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
       propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262831432661440535, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262831432661440535, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
+      propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d52b59325276714bb804efc2eca2b21, type: 3}
