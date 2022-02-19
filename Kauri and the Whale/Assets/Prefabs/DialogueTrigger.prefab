@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5057420107007957231}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 92.38999, y: 0.20999992, z: 0}
   m_LocalScale: {x: 4.1731005, y: 4.1731005, z: 4.1731005}
   m_ConstrainProportionsScale: 0
@@ -239,11 +239,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6251663869290181703, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.2844162
+      value: 0.624
       objectReference: {fileID: 0}
     - target: {fileID: 6251663869290181703, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.0328059
+      value: 0.131
       objectReference: {fileID: 0}
     - target: {fileID: 6251663869290181703, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -283,7 +283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6251663870138291964, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PakiaRSR, Assembly-CSharp
+      value: ReferenceScriptManager, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}
