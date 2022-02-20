@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SingletonManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class SingletonManager : MonoBehaviour
     }
     public static SceneManagerController sceneManagerController;
     public GameObject sceneManagerGO;
+
 
     private void Awake()
     {

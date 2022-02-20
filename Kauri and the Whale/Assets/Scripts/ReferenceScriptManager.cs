@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ReferenceScriptManager : MonoBehaviour
 {
@@ -9,7 +10,11 @@ public class ReferenceScriptManager : MonoBehaviour
     public GameObject Character;
     public Camera cam;
 
+    public Image BlackoutScreen;
+    public Image WhiteoutScreen;
+
     public GameObject WhiteoutPanel;
+    public GameObject EndScreen;
 
     public bool BoatGameCompleted = false;
 
@@ -47,6 +52,11 @@ public class ReferenceScriptManager : MonoBehaviour
     {
         Character.GetComponent<Movement>().enabled = false;
         yield return new WaitForSeconds(3f);
+    }
+
+    public void CloseGame()
+    {
+        Application.Quit();
     }
 
 }
