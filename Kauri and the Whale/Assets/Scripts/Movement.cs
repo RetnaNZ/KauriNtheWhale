@@ -66,13 +66,17 @@ public class Movement : MonoBehaviour
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
 
+            CharAnim.SetBool("Walking", true);
+
             if (hit)
             {
                 travelpoint = new Vector3(hit.point.x, transform.position.y, 0);
                 journeyDist = Vector3.Distance(startPosition, travelpoint);
                 transform.position = Vector3.MoveTowards(transform.position, travelpoint, mouseMSpeed * Time.deltaTime);
 
-                if(hit.point.x < transform.position.x)
+
+
+                if (hit.point.x < transform.position.x)
                 {
                     transform.localScale = right;
                 }
@@ -81,6 +85,11 @@ public class Movement : MonoBehaviour
                     transform.localScale = left;
                 }
             }
+            
+        }
+        else
+        {
+            CharAnim.SetBool("Walking", false);
         }
 
     }

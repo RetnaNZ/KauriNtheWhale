@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PakiaRSR : MonoBehaviour
+public class HokiangaRSR : MonoBehaviour
 {
     ReferenceScriptManager rsm;
     GameObject ReferenceObject;
@@ -22,18 +22,15 @@ public class PakiaRSR : MonoBehaviour
 
     }
 
-
     public void StartTalking()
     {
         StartCoroutine(startTalkingCoroutine());
     }
 
-
     public void FinishTalking()
     {
         StartCoroutine(finishTalkingCoroutine());
     }
-
 
     IEnumerator finishTalkingCoroutine()
     {

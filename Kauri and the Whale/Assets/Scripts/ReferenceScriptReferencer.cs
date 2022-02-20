@@ -93,4 +93,26 @@ public class ReferenceScriptReferencer : MonoBehaviour
         rsm.Character.GetComponent<GameRayCast>().enabled = true;
     }
 
+
+    public void startTalking()
+    {
+        StartCoroutine(startTalkingCoroutine());
+    }
+    IEnumerator startTalkingCoroutine()
+    {
+        Character.GetComponent<Movement>().enabled = false;
+        yield return new WaitForSeconds(3f);
+    }
+
+    public void finishTalking()
+    {
+        StartCoroutine(finishTalkingCoroutine());
+
+    }
+    IEnumerator finishTalkingCoroutine()
+    {
+        Character.GetComponent<Movement>().enabled = true;
+        yield return new WaitForSeconds(3f);
+    }
+
 }
