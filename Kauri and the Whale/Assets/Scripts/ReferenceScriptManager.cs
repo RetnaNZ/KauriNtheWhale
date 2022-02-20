@@ -39,7 +39,7 @@ public class ReferenceScriptManager : MonoBehaviour
 
     IEnumerator finishTalkingCoroutine()
     {
-        Character.GetComponent<Movement>().enabled = false;
+        Character.GetComponent<Movement>().enabled = true;
         yield return new WaitForSeconds(3f);
     }
 

@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5057420107007957228, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5057420107007957230, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: triggerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -182,11 +186,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 8369673091379917954, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091863286328, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091903426581, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8369673092538603669, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 502230810}
-    m_RemovedComponents: []
+    - target: {fileID: 8369673092538603669, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FishingTalking
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673092593694620, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 301.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673092593694620, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -123.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673092593694621, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2514506674590715503, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+    - {fileID: 2514506674590715504, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+    - {fileID: 2514506674590715505, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+    - {fileID: 2514506674590715502, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
 --- !u!1001 &23325413
 PrefabInstance:
@@ -953,7 +989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.957716
+      value: -8.957491
       objectReference: {fileID: 0}
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1304,7 +1340,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7781457, y: 1}
+    m_SensorSize: {x: 1.7794677, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
