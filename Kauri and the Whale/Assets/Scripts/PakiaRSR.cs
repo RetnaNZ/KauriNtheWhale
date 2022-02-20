@@ -25,6 +25,7 @@ public class PakiaRSR : MonoBehaviour
 
     public void StartTalking()
     {
+        Character.GetComponent<Animator>().SetBool("Walking", false);
         StartCoroutine(startTalkingCoroutine());
     }
 

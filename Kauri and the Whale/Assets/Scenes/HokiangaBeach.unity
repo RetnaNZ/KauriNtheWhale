@@ -1646,7 +1646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091379917954, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091379917964, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_text
@@ -1694,7 +1694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091863286328, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091863286330, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_text
@@ -1714,7 +1714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091903426581, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091903426583, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_text
@@ -1780,7 +1780,11 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 44.6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2514506674590715504, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+    - {fileID: 2514506674590715505, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+    - {fileID: 2514506674590715502, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+    - {fileID: 2514506674590715503, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
 --- !u!1 &1144762640 stripped
 GameObject:

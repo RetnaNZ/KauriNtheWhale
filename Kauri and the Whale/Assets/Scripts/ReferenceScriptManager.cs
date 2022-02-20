@@ -50,6 +50,8 @@ public class ReferenceScriptManager : MonoBehaviour
 
     IEnumerator startTalkingCoroutine()
     {
+        Character.GetComponent<Animator>().SetBool("Walking", false);
+
         Character.GetComponent<Movement>().enabled = false;
         yield return new WaitForSeconds(3f);
     }

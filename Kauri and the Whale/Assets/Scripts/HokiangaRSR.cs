@@ -24,6 +24,7 @@ public class HokiangaRSR : MonoBehaviour
 
     public void StartTalking()
     {
+        Character.GetComponent<Animator>().SetBool("Walking", false);
         StartCoroutine(startTalkingCoroutine());
     }
 
@@ -34,7 +35,7 @@ public class HokiangaRSR : MonoBehaviour
 
     IEnumerator finishTalkingCoroutine()
     {
-        Character.GetComponent<Movement>().enabled = false;
+        Character.GetComponent<Movement>().enabled = true;
         yield return new WaitForSeconds(3f);
     }
 

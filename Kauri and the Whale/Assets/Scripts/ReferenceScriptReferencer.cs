@@ -62,11 +62,16 @@ public class ReferenceScriptReferencer : MonoBehaviour
 
     public void FinishBoatGame()
     {
-        rsm.Character.GetComponent<Movement>().enabled = true;
+        StartCoroutine(finishBoatGameCoroutine());
+    }
+
+    IEnumerator finishBoatGameCoroutine()
+    {
         rsm.Character.GetComponent<GameRayCast>().enabled = false;
         camAnimator.SetTrigger("camZoomIn");
+        yield return new WaitForSeconds(3f);
+        Character.GetComponent<Movement>().enabled = true;
 
-        rsm.BoatGameCompleted = true;
     }
 
     IEnumerator gameIntro()
@@ -96,10 +101,13 @@ public class ReferenceScriptReferencer : MonoBehaviour
 
     public void startTalking()
     {
+        Character.GetComponent<Animator>().SetBool("Walking", false);
+
         StartCoroutine(startTalkingCoroutine());
     }
     IEnumerator startTalkingCoroutine()
     {
+
         Character.GetComponent<Movement>().enabled = false;
         yield return new WaitForSeconds(3f);
     }
