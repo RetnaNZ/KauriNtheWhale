@@ -190,6 +190,42 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591658, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3725525
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591658, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5253486
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591658, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591662, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.001615297
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591662, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.001615297
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591662, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001615297
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591662, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591662, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673091692591662, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8369673091692591663, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -202,6 +238,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8369673091903426583, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_text
+      value: 'You can INTERACT by CLICKING too. Easy right?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673092015621533, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 268289339}
+    - target: {fileID: 8369673092015621533, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     - target: {fileID: 8369673092538603669, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -212,15 +262,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8369673092593694620, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 301.24
+      value: 525.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673092593694620, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 275.18
       objectReference: {fileID: 0}
     - target: {fileID: 8369673092593694620, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -123.22
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673092593694620, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.74
       objectReference: {fileID: 0}
     - target: {fileID: 8369673092593694621, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673092593694623, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_text
+      value: 'Hey Kid! Wanna move around? Just CLICK your pincers around like me! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369673092593694623, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+      propertyPath: m_fontSize
+      value: 48.75
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2514506674590715503, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
@@ -467,6 +533,11 @@ AudioSource:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8346003667020145394, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
   m_PrefabInstance: {fileID: 893057548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &268289339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8369673091903426581, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
+  m_PrefabInstance: {fileID: 21031740}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &353925659
 GameObject:
@@ -821,7 +892,7 @@ PrefabInstance:
       objectReference: {fileID: 806074474}
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.957721
+      value: -8.957597
       objectReference: {fileID: 0}
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1119,7 +1190,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7781186, y: 1}
+    m_SensorSize: {x: 1.7788461, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
