@@ -11,6 +11,8 @@ public class Movement : MonoBehaviour
     Vector3 right = new Vector3(-1, 1, 1);
     Vector3 left = new Vector3(1, 1, 1);
 
+    public Animator CharAnim;
+
     public float startTime;
     public bool mouseClicked = false;
 
@@ -25,6 +27,7 @@ public class Movement : MonoBehaviour
     {
         cam = Camera.main;
         PlayerRB = GetComponent<Rigidbody2D>();
+        CharAnim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -35,6 +38,13 @@ public class Movement : MonoBehaviour
         {
             mouseClicked = false;
             transform.Translate(new Vector3(m, 0, 0) * mSpeed * Time.deltaTime);
+
+            CharAnim.SetBool("Walking", true);
+        }
+        else
+        {
+            CharAnim.SetBool("Walking", false);
+
         }
         if (m < 0)
         {
