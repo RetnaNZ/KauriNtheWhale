@@ -648,7 +648,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2665893629004858904, guid: f5fc01c4b2ce02f41b6bbc672b188618, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2665893629004858904, guid: f5fc01c4b2ce02f41b6bbc672b188618, type: 3}
       propertyPath: m_RenderingLayerMask
@@ -995,6 +995,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5530690455175051916, guid: 9bd7a5ee2c090b341beb8cd0d393bd11, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bd7a5ee2c090b341beb8cd0d393bd11, type: 3}
 --- !u!1001 &663017092
@@ -1064,6 +1068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gannet
       objectReference: {fileID: 0}
+    - target: {fileID: 3220569885557806926, guid: 1d449bcd2c474594987a2fab9a9fec2e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d449bcd2c474594987a2fab9a9fec2e, type: 3}
 --- !u!1001 &725286025
@@ -1132,6 +1140,10 @@ PrefabInstance:
     - target: {fileID: 7902008488470925963, guid: 41802367e33aa1d468268881bad2f44b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 9.046
+      objectReference: {fileID: 0}
+    - target: {fileID: 8425069840097562457, guid: 41802367e33aa1d468268881bad2f44b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41802367e33aa1d468268881bad2f44b, type: 3}
@@ -1237,7 +1249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 6c00a1752b560ac41a97c9f5b242bc08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1546,7 +1558,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bd0abe2ba89ab474c988b0bfb655a031, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1718,7 +1730,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091903426583, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_text
-      value: HE GOES BY KAURI, HE'S THE BIGGEST TREE IN THE FOREST!
+      value: HIS NAME IS TANE, HE'S THE BIGGEST KAURI IN THE FOREST!
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091903426583, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_fontSize
@@ -1944,7 +1956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6414510561501023255, guid: bad3de95ab0390b42a1e19d524649e90, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bad3de95ab0390b42a1e19d524649e90, type: 3}
@@ -2425,7 +2437,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: a85dee7a35da69a40ab7ee5fb06a3858, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2550,7 +2562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6440174286173468378, guid: f3ba70f264ed5bd458b4147f9f5a671d, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7570149249176038594, guid: f3ba70f264ed5bd458b4147f9f5a671d, type: 3}
       propertyPath: m_RootOrder
@@ -2617,6 +2629,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 140496446612578883, guid: 6fe112e1daed35f45823551c7cacaa08, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1300177306393819355, guid: 6fe112e1daed35f45823551c7cacaa08, type: 3}
       propertyPath: m_Name
       value: SeagullScreech
