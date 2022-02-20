@@ -71,6 +71,7 @@ public class ReferenceScriptReferencer : MonoBehaviour
         camAnimator.SetTrigger("camZoomIn");
         yield return new WaitForSeconds(3f);
         Character.GetComponent<Movement>().enabled = true;
+        rsm.BoatGameCompleted = true;
 
     }
 
