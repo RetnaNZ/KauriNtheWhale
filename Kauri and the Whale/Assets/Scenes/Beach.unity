@@ -2618,9 +2618,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6251663869471366227, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}
+      propertyPath: m_text
+      value: THERE IS SO MUCH RUBBISH IN THE WATER I CAN'T EVEN SWIM!
+      objectReference: {fileID: 0}
     - target: {fileID: 6251663870138291964, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 167295949}
+    - target: {fileID: 6251663870333893110, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}
+      propertyPath: m_text
+      value: 'HELLO
+
+        MY NAMES TOHORA!'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a96de5c784cd634e9bd0f7fdce82e23, type: 3}

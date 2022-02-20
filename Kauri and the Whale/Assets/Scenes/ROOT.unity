@@ -282,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8369673092593694623, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_text
-      value: 'Hey Kid! Wanna move around? Just CLICK your pincers around like me! '
+      value: 'Hey kid! Wanna move around? Just CLICK your pincers around like me! '
       objectReference: {fileID: 0}
     - target: {fileID: 8369673092593694623, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_fontSize
@@ -1318,9 +1318,13 @@ PrefabInstance:
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       value: -8.957597
 =======
       value: -8.957924
+>>>>>>> Stashed changes
+=======
+      value: -8.957802
 >>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8346003666381552944, guid: 3006dc61188884e429b9fdd905e15dca, type: 3}
@@ -1787,9 +1791,13 @@ MonoBehaviour:
     LensShift: {x: 0, y: 0}
     GateFit: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SensorSize: {x: 1.7788461, y: 1}
 =======
     m_SensorSize: {x: 1.7769231, y: 1}
+>>>>>>> Stashed changes
+=======
+    m_SensorSize: {x: 1.7776397, y: 1}
 >>>>>>> Stashed changes
   m_Transitions:
     m_BlendHint: 0

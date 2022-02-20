@@ -1305,7 +1305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091379917964, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_text
-      value: HE LIVES IN THE FOREST BUT I DON'T HAVE LEGS ANYMORE
+      value: HE LIVES IN THE FOREST AND I DON'T HAVE LEGS ANYMORE!
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091379917964, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_fontSize
@@ -1349,11 +1349,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091863286330, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_text
-      value: HE LIVES IN THE FOREST AND I DON'T HAVE LEGS ANYMORE YOU SEE
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091863286330, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_fontSize
-      value: 44.6
+      value: 47.51
       objectReference: {fileID: 0}
     - target: {fileID: 8369673091893409102, guid: 02c4ca660d71a9b4d9a183ecacf6a035, type: 3}
       propertyPath: m_AnchoredPosition.x
